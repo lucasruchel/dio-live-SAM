@@ -33,7 +33,7 @@ Repositório para o Live Coding do dia 15/12/2021 sobre infraestrutura como cód
 
 ### Desenvolver a aplicação
 
- - Clonar este repositório: ```git clone https://github.com/cassianobrexbit/dio-live-SAM.git```
+ - Clonar este repositório: ```git clone https://github.com/lucasruchel/dio-live-SAM.git```
  - Acessar a pasta ```src```
  - Validar o template AWS SAM ```sam validate```
  - Build ```sam build```
