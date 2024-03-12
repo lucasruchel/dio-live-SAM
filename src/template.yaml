@@ -18,7 +18,7 @@ Resources:
     Properties:
       CodeUri: insert/
       Handler: insertPerson.handler
-      Runtime: nodejs14.x
+      Runtime: nodejs18.x
       Events:
         apiForLambda:
           Type: Api 
@@ -34,7 +34,7 @@ Resources:
     Properties:
       CodeUri: get/
       Handler: getPerson.handler
-      Runtime: nodejs14.x
+      Runtime: nodejs18.x
       Events:
         apiForLambda:
           Type: Api 
@@ -50,7 +50,7 @@ Resources:
     Properties:
       CodeUri: scan/
       Handler: listPerson.lambda_handler
-      Runtime: python3.8
+      Runtime: python3.10
       Events:
         apiForLambda:
           Type: Api 
